@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<name>Better Blink BBC</name>
+	<id>aegersz:Better_Blink_BBC</id>
+	<version>1.24</version>
+	<type>modification</type>
+	<install for="2.0 - 2.0.99">
+	    <readme parsebbc="true">readme.txt</readme>
+		<require-file name="Subs-blinkBBC.php" destination="$sourcedir" />
+		<require-file name="blinkBBC.english.php" destination="$languagedir" />
+		<require-file name="blink.gif" destination="$imagesdir/bbc" />
+		<code>install.php</code>
+	</install>
+	<uninstall for="2.0 - 2.0.99">
+		<remove-file name="$sourcedir/Subs-blinkBBC.php" />
+		<remove-file name="$languagedir/blinkBBC.english.php" />
+		<remove-file name="$imagesdir/bbc/blink.gif" />
+		<code>uninstall.php</code>
+	</uninstall>
+</package-info>
