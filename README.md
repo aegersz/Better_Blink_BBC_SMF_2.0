@@ -1,3 +1,5 @@
+see https://custom.simplemachines.org/mods/index.php?mod=4283
+
 [color=red][size=18pt]Better Blink BBCode[/size][/color][hr]
 
 With this mod, you can blink text in posts on your forum.
